@@ -12,7 +12,8 @@ module GestaoDePonto
     config.load_defaults 6.1
     config.i18n.default_locale = :"pt-BR"
     config.time_zone = 'Brasilia'
-    config.autoloader = :classic
+    config.add_autoload_paths_to_load_path = false
+
 
     # Configuration for the application, engines, and railties goes here.
     #
